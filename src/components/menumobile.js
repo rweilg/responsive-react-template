@@ -30,19 +30,19 @@ const MenuMobile = () => (
         <Link className="menu-mobile-item1" to="/">
           about
         </Link>
-        <Link className="menu-mobile-item2" to="/projects">
+        <Link className="menu-mobile-item2" to="#projects">
           projects
         </Link>
-        <Link className="menu-mobile-item3" to="/experience">
+        <Link className="menu-mobile-item3" to="#experience">
           experience
         </Link>
-        <Link className="menu-mobile-item4" to="/experience">
+        <Link className="menu-mobile-item4" to="#contact-title">
           contact
         </Link>
-        <Link className="menu-mobile-item5" to="/experience">
+        <Link className="menu-mobile-item5" to="https://drive.google.com/file/d/1VDWtZgTrU-uSt873jotFUrF_yXhMXpWq/view?usp=sharing">
           CV🇬🇧
         </Link>
-        <Link className="menu-mobile-item6" to="/experience">
+        <Link className="menu-mobile-item6" to="https://drive.google.com/file/d/1VDWtZgTrU-uSt873jotFUrF_yXhMXpWq/view?usp=sharing">
           CV🇮🇹
         </Link>
       </div>
