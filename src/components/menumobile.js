@@ -30,7 +30,7 @@ const MenuMobile = () => (
         <Link className="menu-mobile-item1" to="/">
           about
         </Link>
-        <Link className="menu-mobile-item2" to="#projects">
+        <Link className="menu-mobile-item2" to="#projectsy">
           projects
         </Link>
         <Link className="menu-mobile-item3" to="#experience">
