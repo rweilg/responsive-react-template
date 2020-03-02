@@ -4,9 +4,14 @@ import Header from "../components/header"
 import MenuMobile from "../components/menumobile"
 import Footer from "../components/footer"
 import ImageLoader from "../components/imageLoader"
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => (
   <div>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>{SoftwareEngineer}</title>
+    </Helmet>
     <div>
       <Header />
       <MenuMobile />
@@ -103,7 +108,7 @@ const IndexPage = () => (
         </div>
         <div className="blog-post-container">
           <h1 className="post-title" id="post3-title">
-          Deploy React + Go on heroku
+            Deploy React + Go on heroku
           </h1>
           <p className="post-description" id="post3-desc">
             Get a full-stack web app working in minutes.
