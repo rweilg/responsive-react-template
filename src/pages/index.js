@@ -103,12 +103,12 @@ const IndexPage = () => (
         </div>
         <div className="blog-post-container">
           <h1 className="post-title" id="post3-title">
-            Journal your emotions with your voice
+          Deploy React + Go on heroku
           </h1>
           <p className="post-description" id="post3-desc">
-            Journal your emotions with your voice.
+            Get a full-stack web app working in minutes.
           </p>
-          <ImageLoader Photo={require("../images/octiheadline.png")} />
+          <ImageLoader Photo={require("../images/herokuconsole.png")} />
         </div>
         <div></div>
         <div style={{ marginTop: "100px", marginBottom: "80px" }}>
