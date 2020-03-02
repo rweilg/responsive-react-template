@@ -90,7 +90,7 @@ const IndexPage = () => (
             Track your subscriptions with this new SwiftUI app, available on the
             Appstore.
           </p>
-          <ImageLoader Photo={require("../images/herokuconsole.png")} />
+          <ImageLoader Photo={require("../images/billtrcker.png")} />
         </div>
         <div className="blog-post-container">
           <h1 className="post-title" id="post3-title">

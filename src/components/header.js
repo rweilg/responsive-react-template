@@ -87,13 +87,13 @@ class Header extends React.Component {
                     <Link className="menu" to="#top">
                       about
                     </Link>
-                    <Link className="menu" to="#projects">
-                      projects
-                    </Link>
                     <Link className="menu" to="#experience">
                       experience
                     </Link>
-                    <Link className="menu" to="#contact">
+                    <Link className="menu" to="#projectsy">
+                      projects
+                    </Link>
+                    <Link className="menu" to="#contact-title">
                       contact
                     </Link>
                   </nav>
