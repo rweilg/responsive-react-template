@@ -14,9 +14,9 @@ const IndexPage = () => (
     <div className="page-content" id="page-content">
       <div className="main-text" style={{ marginTop: "12%" }}>
         <p style={{ lineHeight: "36px", marginBottom: "60px" }} id="about">
-          I am a computer science student, product designer and developer. I
-          believe in bridging engineering with user experience getting my hands
-          dirty and getting things done.
+          I am a computer science student, product designer, developer and
+          full-time learner. I believe in bridging engineering with user
+          experience getting my hands dirty and getting things done.
           <br />
           <br />
           Currently studying at{" "}
@@ -38,7 +38,16 @@ const IndexPage = () => (
           >
             tv experience.
           </a>{" "}
-          You can get here a copy of my resume.
+          For more details you can get{" "}
+          <a
+            className="intext-link"
+            href="https://drive.google.com/file/d/1VDWtZgTrU-uSt873jotFUrF_yXhMXpWq/view?usp=sharing"
+            target="_blank"
+            rel="noopener"
+          >
+            here
+          </a>{" "}
+          a copy of my resume.
           <br />
           <br /> I like golang, swift, python and (statically typed) javascript,
           recursive functions, CV algorithms, Switch games, easter eggs and

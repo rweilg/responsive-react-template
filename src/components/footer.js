@@ -5,7 +5,7 @@ const Footer = () => (
   <footer>
     <div className="footer-container" id="footer-bg">
       <p className="copyrights">
-        Designed and developed by Rodrigo in Milan
+        Made with ❤️ and ☕️ in Milan
         <br />
         <a href="https://www.github.com/rweilg" className="copyrights-link">
           See the source code
