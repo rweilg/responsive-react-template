@@ -13,8 +13,8 @@ const ToggleMenuCLasses = () => {
 
 const SideMenu = () => (
   <menumobile>
-    <div id="burghy">
-      <div className="burghy">
+    <div id="hamburger">
+      <div className="hamburger">
         <div className="lineup" id="lineup" onClick={ToggleMenuCLasses}></div>
         <div
           className="linedown"

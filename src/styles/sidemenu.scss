@@ -1,0 +1,149 @@
+.hamburger {
+  position: fixed;
+  top: 26px;
+  right: 28px;
+  height: 14px;
+  width: 28px;
+  z-index: 51;
+  display: grid;
+  flex-direction: column;
+}
+
+.upperline {
+  height: 4px;
+  width: 28px;
+  background: #24292e;
+  align-self: flex-start;
+  transition: all 0.3s ease-in-out;
+}
+
+.upperline-active {
+  height: 4px;
+  width: 28px;
+  align-self: flex-start;
+  transition: all 0.3s ease-in-out;
+  transform: rotate(45deg) translate(0px, 7px);
+}
+
+.lowerline {
+  height: 4px;
+  width: 28px;
+  background: #24292e;
+  align-self: flex-end;
+  transition: all 0.3s ease-in-out;
+}
+
+.lowerline-active {
+  height: 4px;
+  width: 28px;
+  align-self: flex-end;
+  transition: all 0.3s ease-in-out;
+  transform: rotate(-45deg) translate(0px, -7px);
+}
+
+//hamburgher icon end
+.menu-container {
+  background: #fff;
+  top: 30px;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  left: 110vw;
+  transition: all 0.25s ease-out;
+  display: grid;
+  grid-template-columns: 8% 84% 8%;
+  grid-auto-rows: 8% 14% 14% 14% 14% 36%;
+  justify-items: center;
+  align-items: center;
+  .menu-mobile-item1 {
+    grid-column: 2;
+    grid-row: 2;
+    justify-items: center;
+  }
+  .menu-mobile-item2 {
+    grid-column: 2;
+    grid-row: 3;
+    justify-items: center;
+  }
+  .menu-mobile-item3 {
+    grid-column: 2;
+    grid-row: 4;
+    justify-items: center;
+  }
+  .menu-mobile-item4 {
+    grid-column: 2;
+    grid-row: 5;
+    justify-items: center;
+  }
+  a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    color: #24292e;
+    text-decoration: none;
+  }
+}
+
+.menu-container-opened {
+  height: 100vh;
+  width: 100vw;
+  left: 0vw;
+  transition: all 0.25s ease-out;
+  display: grid;
+  grid-template-columns: 8% 84% 8%;
+  grid-auto-rows: 8% 12% 12% 12% 12% 12% 12% 14%;
+  justify-items: center;
+  align-items: center;
+
+  .menu-mobile-item1 {
+    grid-column: 2;
+    grid-row: 2;
+    justify-items: center;
+  }
+  .menu-mobile-item2 {
+    grid-column: 2;
+    grid-row: 3;
+    justify-items: center;
+  }
+  .menu-mobile-item3 {
+    grid-column: 2;
+    grid-row: 4;
+    justify-items: center;
+  }
+  .menu-mobile-item4 {
+    grid-column: 2;
+    grid-row: 5;
+    justify-items: center;
+  }
+  .menu-mobile-item5 {
+    grid-column: 2;
+    grid-row: 6;
+    justify-items: center;
+  }
+  .menu-mobile-item6 {
+    grid-column: 2;
+    grid-row: 7;
+    justify-items: center;
+  }
+  a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    color: #24292e;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  #hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #hamburger {
+    display: block;
+  }
+}
