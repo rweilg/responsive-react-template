@@ -29,16 +29,16 @@ class Header extends React.Component {
               <div className="header-tranne-logo">
                 <div className="navigation" id="elementi-menu">
                   <nav>
-                    <Link className="menu" to="#top">
+                    <Link className="menu" to="/page1">
                       Page 1
                     </Link>
-                    <Link className="menu" to="#experience">
+                    <Link className="menu" to="/page2">
                       Page 2
                     </Link>
-                    <Link className="menu" to="#projectsy">
+                    <Link className="menu" to="/page3">
                       Page 3
                     </Link>
-                    <Link className="menu" to="#contact-title">
+                    <Link className="menu" to="/page4">
                       Page 4
                     </Link>
                   </nav>

@@ -27,16 +27,16 @@ const SideMenu = () => (
         id="menu-container"
         onClick={ToggleMenuCLasses}
       >
-        <Link className="menu-mobile-item1" to="/">
+        <Link className="menu-mobile-item1" to="/page1">
           Page 1
         </Link>
-        <Link className="menu-mobile-item2" to="#projectsy">
+        <Link className="menu-mobile-item2" to="/page2">
           Page 2
         </Link>
-        <Link className="menu-mobile-item3" to="#experience">
+        <Link className="menu-mobile-item3" to="/page3">
           Page 3
         </Link>
-        <Link className="menu-mobile-item4" to="#contact-title">
+        <Link className="menu-mobile-item4" to="/page4">
           Page 4
         </Link>
       </div>

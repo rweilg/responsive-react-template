@@ -6,6 +6,6 @@ import Footer from "../components/footer"
 import ImageLoader from "../components/imageLoader"
 import { Helmet } from "react-helmet"
 
-const Page1 = () => <div></div>
+const Page3 = () => <div></div>
 
-export default Page1
+export default Page3
