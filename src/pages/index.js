@@ -17,7 +17,7 @@ const IndexPage = () => (
       <MenuMobile />
     </div>
     <div className="page-content" id="page-content">
-      <div className="main-text" style={{ marginTop: "12%" }}>
+      <div className="main-text" style={{ marginTop: "10%" }}>
         <p style={{ lineHeight: "36px", marginBottom: "60px" }} id="about">
           I am a computer science student, product designer, developer and
           full-time learner. I believe in bridging engineering with user

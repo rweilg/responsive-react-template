@@ -9,16 +9,15 @@ import { Helmet } from "react-helmet"
 
 const Octi = () => (
   <div>
-        <Helmet>
+    <Helmet>
       <meta charSet="utf-8" />
       <title>{"Rodrigo Weilg | Octi AR"}</title>
     </Helmet>
     <Header />
     <MenuMobile />
-    <div className="page-content">
+    <div className="page-content" style={{marginTop: "68px"}}>
       <div className="main-text">
         <h1>Octi: AR social experience</h1>
-        <h3>February 9th 2020</h3>
         <h2>
           Here's what I learned working in Los Angeles on a iOS consumer AR app
         </h2>

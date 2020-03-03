@@ -29,7 +29,7 @@ h2 {
   font-weight: 500;
   color: #b9b9b9;
   font-size: 22px;
-  line-height: 33px;
+  line-height: 30px;
   text-align: justify;
 }
 
@@ -45,7 +45,7 @@ h4 {
   font-weight: 400;
   font-size: 26px;
   margin-top: 40px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   color: #24292e;
 }
 
@@ -463,8 +463,6 @@ header {
   .page-content {
     display: grid;
     grid-template-columns: 7% 43% 43% 7%;
-    margin-top: 7%;
-    margin-top: 60px;
   }
   .main-text {
     grid-column: 2/4;
