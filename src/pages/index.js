@@ -59,7 +59,7 @@ const IndexPage = () => (
           biking during golden hour.
         </p>
         <h5 className="experience" id="experience">
-          experience
+          Section Title
         </h5>
 
         <div className="blog-post-container">
@@ -95,7 +95,7 @@ const IndexPage = () => (
           Here's my full CV
         </a>
         <h5 className="experience" id="projectsy">
-          projects
+          Section Title
         </h5>
         <div className="blog-post-container">
           <h1 className="post-title" id="post2-title">
