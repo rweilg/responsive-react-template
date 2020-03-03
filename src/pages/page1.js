@@ -6,6 +6,18 @@ import Footer from "../components/footer"
 import ImageLoader from "../components/imageLoader"
 import { Helmet } from "react-helmet"
 
-const Page1 = () => <div></div>
+const Page1 = () => (
+  <div>
+    <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{"Page 1"}</title>
+      </Helmet>
+      <Header />
+      <SideMenu />
+    </div>
+    <h1>Page 1</h1>
+  </div>
+)
 
 export default Page1

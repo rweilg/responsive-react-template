@@ -48,70 +48,61 @@ const IndexPage = () => (
           plays bass.
         </p>
 
-        <h5 className="section-title" id="experience">
-          Section Title
-        </h5>
-
-        <Post
-          Title="First cool thing you'd like to show"
-          Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
-          mollis, fringilla nibh sed, tempor tellus."
-          ImageURL={require("../images/octiheadline.png")}
-        />
-
-        <Post
-          Title="Second cool thing"
-          Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
-          mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
-          dignissim ut porta sed, dignissim id neque"
-          ImageURL={require("../images/components.png")}
-        />
-
-        <a
-          className="cta-button"
-          id="cta-buttonid"
-          href="https://google.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          Button
-        </a>
-        <h5 className="section-title" id="projectsy">
-          Section Title
-        </h5>
-
-        <Post
-          Title="Third cool thing"
-          Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
-          mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
-          dignissim ut porta sed, dignissim id neque"
-          ImageURL={require("../images/billtrcker.png")}
-        />
-
-        <Post
-          Title="Another cool thing you'd like to show"
-          Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
-          mollis, fringilla nibh sed, tempor tellus."
-          ImageURL={require("../images/herokuconsole.png")}
-        />
-
-        <div></div>
-        <div style={{ marginTop: "100px", marginBottom: "80px" }}>
+        <div className="section">
           <h5 className="section-title">Section Title</h5>
-          <p id="internship">
-            If you're interested in what I do or have a project I could take
-            part in during summer 2020 please{" "}
-            <a
-              class="intext-link"
-              id="mailto"
-              href={
-                "mailto:contact@rodrigoweilg.com?subject=Hey%20Rod%2C&body=I'd%20like%20to%20talk%20to%20you%20about%20something"
-              }
-            >
-              email me,
-            </a>{" "}
-            I'd love to chat about it.
-          </p>
+
+          <Post
+            Title="First cool thing you'd like to show"
+            Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+          mollis, fringilla nibh sed, tempor tellus."
+            ImageURL={require("../images/octiheadline.png")}
+          />
+
+          <Post
+            Title="Second cool thing"
+            Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+          mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
+          dignissim ut porta sed, dignissim id neque"
+            ImageURL={require("../images/components.png")}
+          />
+
+          <a
+            className="cta-button"
+            href="https://google.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Button
+          </a>
+        </div>
+
+        <div className="section">
+          <h5 className="section-title">Section Title</h5>
+
+          <Post
+            Title="Third cool thing"
+            Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+          mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
+          dignissim ut porta sed, dignissim id neque"
+            ImageURL={require("../images/billtrcker.png")}
+          />
+
+          <Post
+            Title="Another cool thing you'd like to show"
+            Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+          mollis, fringilla nibh sed, tempor tellus."
+            ImageURL={require("../images/herokuconsole.png")}
+          />
+        </div>
+
+        <div className="section">
+          <div style={{ marginTop: "100px", marginBottom: "80px" }}>
+            <h5 className="section-title">Section Title</h5>
+            <p>
+              Here you can put some text or your contact info. <br /> Like
+              email, phone, pigeon{" "}
+            </p>
+          </div>
         </div>
       </div>
     </div>
