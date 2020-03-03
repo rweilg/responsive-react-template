@@ -63,7 +63,7 @@ const IndexPage = () => (
 
         <div className="blog-post-container">
           <h1 className="post-title" id="post1-title">
-            Healthcare management platform
+            Second cool thing you'd like to show
           </h1>
           <p className="post-description" id="post1-desc">
             How with a thoughtful, modular design system I managed to keep
@@ -79,14 +79,14 @@ const IndexPage = () => (
           target="_blank"
           rel="noopener"
         >
-          Here's my full CV
+          Button
         </a>
         <h5 className="section-title" id="projectsy">
           Section Title
         </h5>
         <div className="blog-post-container">
           <h1 className="post-title" id="post2-title">
-            Track subscriptions
+            Third cool thing you'd like to show
           </h1>
           <p className="post-description" id="post2-desc">
             Track your subscriptions with this new SwiftUI app, available on the
@@ -96,7 +96,7 @@ const IndexPage = () => (
         </div>
         <div className="blog-post-container">
           <h1 className="post-title" id="post3-title">
-            Deploy React + Go on heroku
+            Another cool thing you'd like to show
           </h1>
           <p className="post-description" id="post3-desc">
             Get a full-stack web app working in minutes.
@@ -110,7 +110,7 @@ const IndexPage = () => (
             If you're interested in what I do or have a project I could take
             part in during summer 2020 please{" "}
             <a
-              class="mailto"
+              class="intext-link"
               id="mailto"
               href={
                 "mailto:contact@rodrigoweilg.com?subject=Hey%20Rod%2C&body=I'd%20like%20to%20talk%20to%20you%20about%20something"

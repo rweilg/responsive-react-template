@@ -5,10 +5,10 @@ const Footer = () => (
   <footer>
     <div className="footer-container" id="footer-bg">
       <p className="copyrights">
-        Made with ❤️ and ☕️ in Milan
+        I liked music better in the 00s
         <br />
-        <a href="https://www.google.com/" className="copyrights-link">
-          Link to whatevs you want here
+        <a href="https://www.rodrigoweilg.com/" className="copyrights-link">
+          © 2020 - Rodrigo Weilg
         </a>
       </p>
       <nav className="elementi-footer">
