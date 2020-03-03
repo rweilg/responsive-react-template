@@ -58,7 +58,7 @@ const IndexPage = () => (
           recursive functions, CV algorithms, Switch games, easter eggs and
           biking during golden hour.
         </p>
-        <h5 className="experience" id="experience">
+        <h5 className="section-title" id="experience">
           Section Title
         </h5>
 
@@ -94,7 +94,7 @@ const IndexPage = () => (
         >
           Here's my full CV
         </a>
-        <h5 className="experience" id="projectsy">
+        <h5 className="section-title" id="projectsy">
           Section Title
         </h5>
         <div className="blog-post-container">
@@ -118,9 +118,7 @@ const IndexPage = () => (
         </div>
         <div></div>
         <div style={{ marginTop: "100px", marginBottom: "80px" }}>
-          <h4 id="contact-title" className="contact-title">
-            Hi there:
-          </h4>
+          <h5 className="section-title">Hi there:</h5>
           <p id="internship">
             If you're interested in what I do or have a project I could take
             part in during summer 2020 please{" "}
