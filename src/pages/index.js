@@ -98,8 +98,8 @@ const IndexPage = () => (
         <div className="section">
           <h5 className="section-title">Section Title</h5>
           <p>
-            Here you can put some text or your contact info. <br /> Like email,
-            phone, pigeon. Or some more lorem ipsum dolor sit amet, consectetur
+            Here you can put some text or your contact info. Like email, phone,
+            pigeon. Or some more lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Nam ac ante mollis, fringilla nibh sed, tempor
             tellus. Pellentesque mi magna, dignissim ut porta sed, dignissim id
             neque{" "}
