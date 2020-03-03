@@ -3,7 +3,6 @@ import "../styles/styles.scss"
 import Header from "../components/header"
 import SideMenu from "../components/menumobile"
 import Footer from "../components/footer"
-import ImageLoader from "../components/imageLoader"
 import { Helmet } from "react-helmet"
 import Post from "../components/post"
 
