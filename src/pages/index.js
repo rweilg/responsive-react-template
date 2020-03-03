@@ -70,6 +70,7 @@ const IndexPage = () => (
             I worked at a Los Angeles based company on an iOS app and this is
             what I learned.{" "}
           </p>
+
           <ImageLoader Photo={require("../images/octiheadline.png")} />
         </div>
 
@@ -85,8 +86,8 @@ const IndexPage = () => (
           <ImageLoader Photo={require("../images/components.png")} />
         </div>
         <a
-          className="cv-button"
-          id="cv-buttonid"
+          className="cta-button"
+          id="cta-buttonid"
           href="https://drive.google.com/file/d/1VDWtZgTrU-uSt873jotFUrF_yXhMXpWq/view?usp=sharing"
           target="_blank"
           rel="noopener"
