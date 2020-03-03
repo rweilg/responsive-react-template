@@ -96,13 +96,14 @@ const IndexPage = () => (
         </div>
 
         <div className="section">
-          <div style={{ marginTop: "100px", marginBottom: "80px" }}>
-            <h5 className="section-title">Section Title</h5>
-            <p>
-              Here you can put some text or your contact info. <br /> Like
-              email, phone, pigeon{" "}
-            </p>
-          </div>
+          <h5 className="section-title">Section Title</h5>
+          <p>
+            Here you can put some text or your contact info. <br /> Like email,
+            phone, pigeon. Or some more lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nam ac ante mollis, fringilla nibh sed, tempor
+            tellus. Pellentesque mi magna, dignissim ut porta sed, dignissim id
+            neque{" "}
+          </p>
         </div>
       </div>
     </div>
