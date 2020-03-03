@@ -56,6 +56,7 @@ const Page4 = () => (
         </p>
       </div>
     </div>
+    <Footer />
   </div>
 )
 

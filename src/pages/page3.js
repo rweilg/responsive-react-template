@@ -56,6 +56,7 @@ const Page3 = () => (
         </p>
       </div>
     </div>
+    <Footer />
   </div>
 )
 
