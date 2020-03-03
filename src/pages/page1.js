@@ -16,7 +16,9 @@ const Page1 = () => (
       <Header />
       <SideMenu />
     </div>
-    <h1>Page 1</h1>
+    <div className="page-content" style={{ marginTop: "68px" }}>
+      <div className="main-text"></div>
+    </div>
   </div>
 )
 
