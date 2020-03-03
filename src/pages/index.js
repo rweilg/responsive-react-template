@@ -19,44 +19,32 @@ const IndexPage = () => (
     <div className="page-content" id="page-content">
       <div className="main-text" style={{ marginTop: "10%" }}>
         <p style={{ lineHeight: "36px", marginBottom: "60px" }} id="about">
-          I am a computer science student, product designer, developer and
-          full-time learner. I believe in bridging engineering with user
-          experience getting my hands dirty and getting things done.
+          Here's the medium length paragraphs about yourself, this shouldn't be
+          as formal imho , you have a resume for that, or maybe it should, I
+          don't know pal you do you.
           <br />
-          <br />
-          Currently studying at{" "}
-          <a className="intext-link" href="https://www.unimi.it/eng">
-            UNIMI
+          <br />A second p beacuse you need space to describe yourself dammit,
+          here's a{" "}
+          <a
+            className="intext-link"
+            href="https://www.youtube.com/watch?v=9wFwPh-KbEY"
+          >
+            custom link example
           </a>
-          . I worked both in Italy and the US: developing new ways to create{" "}
-          <a className="intext-link" href="https://www.octi.tv/">
-            social interactions with AR,
+          . Yeah I know slightly convoluted for a simple link but I wanted to
+          customize it my way look,{" "}
+          <a className="intext-link" href="https://www.google.com/">
+            another one
           </a>{" "}
-          creating a{" "}
-          <a className="intext-link" href="https://www.nuvyta.it/">
-            platform
+          and then even a third{" "}
+          <a className="intext-link" href="https://www.google.com/">
+            wow
           </a>{" "}
-          for management of medical institutions and apps that enrich the{" "}
-          <a
-            className="intext-link"
-            href="https://www.sky.it/assistenza/benvenuto/skyq-platinum/esperienza-sorprendente.html"
-          >
-            tv experience.
-          </a>{" "}
-          For more details you can get{" "}
-          <a
-            className="intext-link"
-            href="https://drive.google.com/file/d/1VDWtZgTrU-uSt873jotFUrF_yXhMXpWq/view?usp=sharing"
-            target="_blank"
-            rel="noopener"
-          >
-            here
-          </a>{" "}
-          a copy of my resume.
-          <br />
-          <br /> I like golang, swift, python and (statically typed) javascript,
-          recursive functions, CV algorithms, Switch games, easter eggs and
-          biking during golden hour.
+          . Dots and commas outside the a tag. <br />
+          <br /> I don't know what to write again so here's the lyrics of the
+          song I'm listening to right now: Hey, won't you call me back? 'Cause
+          I've been waiting for a text back It hurts my brain This chick who
+          plays bass.
         </p>
         <h5 className="section-title" id="experience">
           Section Title
@@ -64,13 +52,12 @@ const IndexPage = () => (
 
         <div className="blog-post-container">
           <h1 className="post-title" id="post0-title">
-            CV-powered social AR experience
+            First cool thing you'd like to show
           </h1>
           <p className="post-description" id="post0-desc">
             I worked at a Los Angeles based company on an iOS app and this is
             what I learned.{" "}
           </p>
-
           <ImageLoader Photo={require("../images/octiheadline.png")} />
         </div>
 
