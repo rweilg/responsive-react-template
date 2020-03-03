@@ -1,12 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/styles.scss"
+import "../styles/sidemenu.scss"
 
 const ToggleMenuCLasses = () => {
-  let hamburgerLineUp = document.getElementById("lineup")
-  hamburgerLineUp.classList.toggle("lineup-active")
-  let hamburgerLineDwon = document.getElementById("linedown")
-  hamburgerLineDwon.classList.toggle("linedown-active")
+  let hamburgerLineUp = document.getElementById("upperline")
+  hamburgerLineUp.classList.toggle("upperline-active")
+  let hamburgerLineDwon = document.getElementById("lowerline")
+  hamburgerLineDwon.classList.toggle("lowerline-active")
   let showClosedMenu = document.getElementById("menu-container")
   showClosedMenu.classList.toggle("menu-container-opened")
 }
@@ -15,10 +15,14 @@ const SideMenu = () => (
   <menumobile>
     <div id="hamburger">
       <div className="hamburger">
-        <div className="lineup" id="lineup" onClick={ToggleMenuCLasses}></div>
         <div
-          className="linedown"
-          id="linedown"
+          className="upperline"
+          id="upperline"
+          onClick={ToggleMenuCLasses}
+        ></div>
+        <div
+          className="lowerline"
+          id="lowerline"
           onClick={ToggleMenuCLasses}
         ></div>
       </div>
