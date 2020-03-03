@@ -157,6 +157,7 @@ header {
 
 .page-content {
   margin-left: 0px;
+  margin-top: 80px;
   z-index: 6;
   display: grid;
   grid-template-columns: 1fr 302px 302px 1fr;
@@ -164,6 +165,7 @@ header {
 }
 .main-text {
   grid-column: 2/4;
+
   margin-bottom: 40px;
   align-content: center;
   .my-photo {

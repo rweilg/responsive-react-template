@@ -18,8 +18,8 @@ const IndexPage = () => (
       <SideMenu />
     </div>
     <div className="page-content" id="page-content">
-      <div className="main-text" style={{ marginTop: "10%" }}>
-        <p style={{ lineHeight: "36px", marginBottom: "60px" }} id="about">
+      <div className="main-text">
+        <p style={{ marginBottom: "60px" }}>
           Here's the medium length paragraphs about yourself, this shouldn't be
           as formal imho , you have a resume for that, or maybe it should, I
           don't know pal you do you.
