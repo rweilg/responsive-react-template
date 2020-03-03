@@ -7,14 +7,14 @@ const Footer = () => (
       <p className="copyrights">
         Made with ❤️ and ☕️ in Milan
         <br />
-        <a href="https://www.github.com/rweilg" className="copyrights-link">
-          See the source code
+        <a href="https://www.google.com/" className="copyrights-link">
+          Link to whatevs you want here
         </a>
       </p>
       <nav className="elementi-footer">
         <a
           className="footer-icons"
-          href="https://twitter.com/weilg_"
+          href="https://twitter.com/"
           target="_blank"
           rel="noopener"
         >
@@ -24,7 +24,7 @@ const Footer = () => (
         </a>
         <a
           className="footer-icons"
-          href="https://www.linkedin.com/in/rodrigo-weilg/"
+          href="https://www.linkedin.com/"
           target="_blank"
           rel="noopener"
         >
@@ -34,7 +34,7 @@ const Footer = () => (
         </a>
         <a
           className="footer-icons"
-          href="https://github.com/rweilg"
+          href="https://github.com/"
           target="_blank"
           rel="noopener"
         >
@@ -44,7 +44,7 @@ const Footer = () => (
         </a>
         <a
           className="footer-icons"
-          href="https://medium.com/@rodrigoweilg"
+          href="https://medium.com/"
           target="_blank"
           rel="noopener"
         >
