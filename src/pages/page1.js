@@ -17,7 +17,9 @@ const Page1 = () => (
       <SideMenu />
     </div>
     <div className="page-content" style={{ marginTop: "68px" }}>
-      <div className="main-text"></div>
+      <div className="main-text">
+      
+      </div>
     </div>
   </div>
 )
