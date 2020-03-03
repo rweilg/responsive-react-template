@@ -10,7 +10,7 @@ const IndexPage = () => (
   <div>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>{"Rodrigo Weilg | Software Engineer"}</title>
+      <title>{"Your Name or Title"}</title>
     </Helmet>
     <div>
       <Header />
