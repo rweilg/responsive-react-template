@@ -5,6 +5,7 @@ import SideMenu from "../components/menumobile"
 import Footer from "../components/footer"
 import ImageLoader from "../components/imageLoader"
 import { Helmet } from "react-helmet"
+import Post from "../components/post"
 
 const IndexPage = () => (
   <div>
@@ -60,6 +61,21 @@ const IndexPage = () => (
           </p>
           <ImageLoader Photo={require("../images/octiheadline.png")} />
         </div>
+
+        <Post
+          Title="First cool thing you'd like to show"
+          Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+          mollis, fringilla nibh sed, tempor tellus."
+          ImageURL={require("../images/octiheadline.png")}
+        />
+
+        <Post
+          Title="Second cool thing"
+          Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+          mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
+          dignissim ut porta sed, dignissim id neque"
+          ImageURL={require("../images/components.png")}
+        />
 
         <div className="blog-post-container">
           <h1 className="post-title" id="post1-title">
