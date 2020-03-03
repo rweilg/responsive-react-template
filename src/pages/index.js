@@ -47,20 +47,10 @@ const IndexPage = () => (
           I've been waiting for a text back It hurts my brain This chick who
           plays bass.
         </p>
+
         <h5 className="section-title" id="experience">
           Section Title
         </h5>
-
-        <div className="blog-post-container">
-          <h1 className="post-title" id="post0-title">
-            First cool thing you'd like to show
-          </h1>
-          <p className="post-description" id="post0-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
-            mollis, fringilla nibh sed, tempor tellus.{" "}
-          </p>
-          <ImageLoader Photo={require("../images/octiheadline.png")} />
-        </div>
 
         <Post
           Title="First cool thing you'd like to show"
@@ -77,21 +67,10 @@ const IndexPage = () => (
           ImageURL={require("../images/components.png")}
         />
 
-        <div className="blog-post-container">
-          <h1 className="post-title" id="post1-title">
-            Second cool thing
-          </h1>
-          <p className="post-description" id="post1-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
-            mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
-            dignissim ut porta sed, dignissim id neque.
-          </p>
-          <ImageLoader Photo={require("../images/components.png")} />
-        </div>
         <a
           className="cta-button"
           id="cta-buttonid"
-          href="https://drive.google.com/file/d/1VDWtZgTrU-uSt873jotFUrF_yXhMXpWq/view?usp=sharing"
+          href="https://google.com/"
           target="_blank"
           rel="noopener"
         >
@@ -100,27 +79,22 @@ const IndexPage = () => (
         <h5 className="section-title" id="projectsy">
           Section Title
         </h5>
-        <div className="blog-post-container">
-          <h1 className="post-title" id="post2-title">
-            Third cool thing you'd like to show
-          </h1>
-          <p className="post-description" id="post2-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
-            mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
-            dignissim ut porta sed, dignissim id neque.
-          </p>
-          <ImageLoader Photo={require("../images/billtrcker.png")} />
-        </div>
-        <div className="blog-post-container">
-          <h1 className="post-title" id="post3-title">
-            Another cool thing you'd like to show
-          </h1>
-          <p className="post-description" id="post3-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
-            mollis, fringilla nibh sed, tempor tellus.
-          </p>
-          <ImageLoader Photo={require("../images/herokuconsole.png")} />
-        </div>
+
+        <Post
+          Title="Third cool thing"
+          Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+          mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
+          dignissim ut porta sed, dignissim id neque"
+          ImageURL={require("../images/billtrcker.png")}
+        />
+
+        <Post
+          Title="Another cool thing you'd like to show"
+          Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+          mollis, fringilla nibh sed, tempor tellus."
+          ImageURL={require("../images/herokuconsole.png")}
+        />
+
         <div></div>
         <div style={{ marginTop: "100px", marginBottom: "80px" }}>
           <h5 className="section-title">Section Title</h5>
