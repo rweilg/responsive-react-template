@@ -11,7 +11,7 @@ const ToggleMenuCLasses = () => {
   showClosedMenu.classList.toggle("menu-container-opened")
 }
 
-const MenuMobile = () => (
+const SideMenu = () => (
   <menumobile>
     <div id="burghy">
       <div className="burghy">
@@ -28,26 +28,20 @@ const MenuMobile = () => (
         onClick={ToggleMenuCLasses}
       >
         <Link className="menu-mobile-item1" to="/">
-          about
+          Page 1
         </Link>
         <Link className="menu-mobile-item2" to="#projectsy">
-          projects
+          Page 2
         </Link>
         <Link className="menu-mobile-item3" to="#experience">
-          experience
+          Page 3
         </Link>
         <Link className="menu-mobile-item4" to="#contact-title">
-          contact
-        </Link>
-        <Link className="menu-mobile-item5" to="https://drive.google.com/file/d/1VDWtZgTrU-uSt873jotFUrF_yXhMXpWq/view?usp=sharing">
-          CV🇬🇧
-        </Link>
-        <Link className="menu-mobile-item6" to="https://drive.google.com/file/d/1VDWtZgTrU-uSt873jotFUrF_yXhMXpWq/view?usp=sharing">
-          CV🇮🇹
+          Page 4
         </Link>
       </div>
     </div>
   </menumobile>
 )
 
-export default MenuMobile
+export default SideMenu

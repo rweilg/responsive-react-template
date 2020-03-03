@@ -1,7 +1,7 @@
 import React from "react"
 import "../styles/styles.scss"
 import Header from "../components/header"
-import MenuMobile from "../components/menumobile"
+import SideMenu from "../components/menumobile"
 import Footer from "../components/footer"
 import ImageLoader from "../components/imageLoader"
 import { Helmet } from "react-helmet"
@@ -14,7 +14,7 @@ const IndexPage = () => (
     </Helmet>
     <div>
       <Header />
-      <MenuMobile />
+      <SideMenu />
     </div>
     <div className="page-content" id="page-content">
       <div className="main-text" style={{ marginTop: "10%" }}>
@@ -55,20 +55,20 @@ const IndexPage = () => (
             First cool thing you'd like to show
           </h1>
           <p className="post-description" id="post0-desc">
-            I worked at a Los Angeles based company on an iOS app and this is
-            what I learned.{" "}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+            mollis, fringilla nibh sed, tempor tellus.{" "}
           </p>
           <ImageLoader Photo={require("../images/octiheadline.png")} />
         </div>
 
         <div className="blog-post-container">
           <h1 className="post-title" id="post1-title">
-            Second cool thing you'd like to show
+            Second cool thing
           </h1>
           <p className="post-description" id="post1-desc">
-            How with a thoughtful, modular design system I managed to keep
-            consistency in the very broad and feature-rich experience at SaaS
-            platform Nuvyta.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+            mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
+            dignissim ut porta sed, dignissim id neque.
           </p>
           <ImageLoader Photo={require("../images/components.png")} />
         </div>
@@ -89,8 +89,9 @@ const IndexPage = () => (
             Third cool thing you'd like to show
           </h1>
           <p className="post-description" id="post2-desc">
-            Track your subscriptions with this new SwiftUI app, available on the
-            Appstore.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+            mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
+            dignissim ut porta sed, dignissim id neque.
           </p>
           <ImageLoader Photo={require("../images/billtrcker.png")} />
         </div>
@@ -99,13 +100,14 @@ const IndexPage = () => (
             Another cool thing you'd like to show
           </h1>
           <p className="post-description" id="post3-desc">
-            Get a full-stack web app working in minutes.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
+            mollis, fringilla nibh sed, tempor tellus.
           </p>
           <ImageLoader Photo={require("../images/herokuconsole.png")} />
         </div>
         <div></div>
         <div style={{ marginTop: "100px", marginBottom: "80px" }}>
-          <h5 className="section-title">Hi there:</h5>
+          <h5 className="section-title">Section Title</h5>
           <p id="internship">
             If you're interested in what I do or have a project I could take
             part in during summer 2020 please{" "}
