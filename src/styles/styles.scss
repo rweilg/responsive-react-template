@@ -285,12 +285,6 @@ header {
   }
 }
 
-@media screen and (min-width: 760px) {
-  #hamburger {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 760px) {
   .page-content {
     display: grid;
