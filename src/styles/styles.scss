@@ -61,10 +61,6 @@ p {
   text-align: left;
 }
 
-.p-dark {
-  color: #eeeeee;
-}
-
 a {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -152,10 +148,6 @@ a {
   transform: rotate(45deg) translate(0px, 7px);
 }
 
-.lineup-active-dark {
-  background: #eee;
-}
-
 .linedown {
   height: 4px;
   width: 28px;
@@ -164,22 +156,14 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-.linedown-dark {
-  background: #eee;
-}
-
 .linedown-active {
   height: 4px;
   width: 28px;
-
   align-self: flex-end;
   transition: all 0.3s ease-in-out;
   transform: rotate(-45deg) translate(0px, -7px);
 }
 
-.linedown-active-dark {
-  background: #eee;
-}
 //hamburgher icon end
 .menu-container {
   background: #fff;
@@ -219,7 +203,7 @@ a {
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     font-size: 2em;
-    color: rgba(35, 40, 45, 0);
+    color: #24292e;
     text-decoration: none;
   }
 }
@@ -270,7 +254,7 @@ a {
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
     font-size: 2em;
-    color: rgb(35, 40, 45);
+    color: #24292e;
     text-decoration: none;
   }
 }
@@ -318,24 +302,6 @@ header {
   }
 }
 
-.dark-mode-btn {
-  fill: #24292e;
-  margin-right: 8px;
-}
-
-.dark-mode-btn-inverted {
-  fill: #fff;
-}
-
-.header-dark {
-  background: #252525;
-  box-shadow: 0px 1px 0px 0px #1e1e1f;
-  transition: all 0.4s ease-out;
-  a {
-    color: #eee;
-  }
-}
-
 @media (max-width: 760px) {
   #elementi-menu {
     display: none;
@@ -363,11 +329,6 @@ header {
   }
 }
 
-.page-content-dark {
-  background: #111;
-  transition: all 0.4s ease-out;
-}
-
 .cta-button {
   color: #24292e;
   font-size: 18px;
@@ -386,10 +347,6 @@ header {
   margin: 0 auto;
 }
 
-.cta-button-dark {
-  color: #eee;
-  border: 3px solid #eee;
-}
 .cta-button:hover {
   background: #ffe553;
   border-color: #ffe553;
@@ -448,10 +405,6 @@ header {
   }
 }
 
-.footer-bg-dark {
-  background: #111;
-}
-
 @media screen and (max-width: 760px) {
   .page-content {
     display: grid;
@@ -502,10 +455,6 @@ header {
   margin-right: 2px;
 }
 
-.mailto-dark {
-  color: #eee;
-}
-
 .blog-post-container {
   padding-top: 0px;
   margin-top: 45px;
@@ -523,24 +472,10 @@ header {
   line-height: 44px;
 }
 
-.post-title-dark {
-  margin-bottom: -12px;
-  text-align: left;
-  line-height: 44px;
-  color: #eee;
-}
-
 .post-description {
   line-height: 30px;
   text-align: left;
   margin-bottom: 14px;
-}
-
-.post-description-dark {
-  line-height: 30px;
-  text-align: left;
-  margin-bottom: 14px;
-  color: #eee;
 }
 
 .post-image {
