@@ -54,7 +54,7 @@ const IndexPage = () => (
             Title="First cool thing you'd like to show"
             Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
           mollis, fringilla nibh sed, tempor tellus."
-            ImageURL={require("../images/octiheadline.png")}
+            ImageURL={require("../images/pic1.png")}
           />
 
           <Post
@@ -62,7 +62,7 @@ const IndexPage = () => (
             Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
           mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
           dignissim ut porta sed, dignissim id neque"
-            ImageURL={require("../images/components.png")}
+            ImageURL={require("../images/pic2.png")}
           />
 
           <a
@@ -83,14 +83,14 @@ const IndexPage = () => (
             Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
           mollis, fringilla nibh sed, tempor tellus. Pellentesque mi magna,
           dignissim ut porta sed, dignissim id neque"
-            ImageURL={require("../images/billtrcker.png")}
+            ImageURL={require("../images/pic3.png")}
           />
 
           <Post
             Title="Another cool thing you'd like to show"
             Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante
           mollis, fringilla nibh sed, tempor tellus."
-            ImageURL={require("../images/herokuconsole.png")}
+            ImageURL={require("../images/pic4.png")}
           />
         </div>
 

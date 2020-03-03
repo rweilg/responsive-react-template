@@ -24,7 +24,7 @@ const Page2 = () => (
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
           dolor sed arcu elementum ornare.
         </h2>
-        <ImageLoader Photo={require("../images/octiheadline.png")} />
+        <ImageLoader Photo={require("../images/pic2.png")} />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
           dolor sed arcu elementum ornare. Mauris malesuada mauris in arcu
