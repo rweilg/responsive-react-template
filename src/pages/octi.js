@@ -5,9 +5,14 @@ import MenuMobile from "../components/menumobile"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import ImageLoader from "../components/imageLoader"
+import { Helmet } from "react-helmet"
 
 const Octi = () => (
   <div>
+        <Helmet>
+      <meta charSet="utf-8" />
+      <title>{"Rodrigo Weilg | Octi AR"}</title>
+    </Helmet>
     <Header />
     <MenuMobile />
     <div className="page-content">
