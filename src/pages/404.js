@@ -6,7 +6,7 @@ const NotFoundPage = () => (
   <div>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>{"Rodrigo Weilg | 404"}</title>
+      <title>{"Nothing Here"}</title>
     </Helmet>
     <h2>Page not found</h2>
     <Link to="/">go back home</Link>
